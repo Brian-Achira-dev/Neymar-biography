@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(https://wallpaperaccess.com/full/4442778.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-bottom: 7px solid black;
+
+}
+
+header .overlay h1{
+    font-size: 80px;
+    padding: 5rem 0rem;
+    font-family:'Lobster', cursive ,'Trebuchet MS';
+    
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 40vh;
+}
+
+
+@media screen and (min-width: 900px){
+    .overlay{
+        height: 50vh;
+    }
+
+    header{
+        height: 50vh;
+    }
+
+}
+
+.current{
+    padding: 2rem 2rem;
+    text-align: center;
+    display: grid;
+    height: 100vh;
+    padding-bottom: 6rem;
+    border-bottom: 8px solid black;
+    
+    
+}
+
+.current a{
+    color: #5c5c5c;
+    text-decoration: underline;
+    font-family: monospace;
+    font-style: oblique;
+}
+
+.current a:hover{
+    font-weight: bolder;
+}
+
+.current p {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.current img{
+    width: 100%;
+    margin-bottom: 2rem;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 5px rgb(150, 150, 150);
+}
+
+@media (min-width: 768px){
+    .current{
+        display: flex;
+        padding-top: 5rem;
+    }
+
+    .current img{
+        width: 60%;
+        height: 55%;
+    }
+
+    .current p{
+        padding: 2rem 2rem;
+    }
+    
+}
+
+@media (min-width: 990px){
+    .current{
+        display: flex;
+        height: 60vh;
+    }
+
+    .current img{
+        width: 60%;
+        height: 40vh;
+    }
+
+    .current p{
+        padding: 2rem 6rem;
+    }
+    
+}
+
+
+span{
+    color: rgb(44, 26, 2);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.span2{
+    color: crimson;
+}
+
+.club-career h1{
+    text-align: center;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 36px;
+}
+
+.club-career{
+    padding: 2rem 1.5rem;
+    height: 180vh;
+    line-height: 1.8;
+    font-size: 22px;
+    border-bottom: 5px solid black;
+    
+    
+}
+
+
+
+
+.brazil h1{
+    text-align: center;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 36px;
+    padding-bottom: 2rem;
+}
+
+.brazil{
+    padding: 2rem 1.5rem;
+    height: 140vh;
+    line-height: 1.8;
+    font-size: 22px;
+    border-bottom: 5px solid black;
+    
+    
+}
+
+
+
+@media (min-width: 668px) {
+    .club-career{
+        height: 140vh;
+        padding-top: 7rem;
+    }
+    .overlay2{
+        height: 140vh;
+    }
+
+    .brazil{
+        height: 140vh;
+        padding-top: 7rem;
+    }
+    
+}
+
+
+@media (min-width: 968px) {
+    .club-career{
+        height: 100vh;
+        padding-top: 6rem;
+        line-height: 2;
+    }
+    .overlay2{
+        height: 100vh;
+    }
+
+    .brazil{
+        height: 100vh;
+        padding-top: 6rem;
+        line-height: 2;
+    }
+    
+}
+
+.gallery-wrapper{
+    text-align: center;
+    border-bottom: 10px solid black;
+}
+
+.gallery{
+    display: grid;
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+.gallery-wrapper h1{
+    font-size: 50px;
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+    text-decoration: double underline;
+    font-family: 'Akaya Kanadaka', cursive;
+    
+}
+
+.gallery img{
+    width: 80%;
+    margin: 1rem auto;
+    border: 2px solid black;
+}
+
+@media screen and (min-width: 868px) {
+    .gallery img{
+        width: 30%;
+
+    }
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gallery :nth-child(4){
+        height: 40%;
+    }
+
+    .gallery :nth-child(5){
+        height: 40%;
+    }
+
+    .gallery :nth-child(6){
+        height: 40%;
+    }
+    
+}
+
+.video-area{
+    text-align: center;
+    
+}
+
+.video-area h1{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 30px;
+    padding: 2.5rem;
+    text-decoration: wavy underline;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+   
+  }
+.video iframe {
+    position: absolute;
+    
+    top: 0;
+    left: 6%;
+    width: 90%;
+    height: 85%;
+}
+
+@media (min-width: 768px) {
+    .video{
+        margin-bottom: 5rem;
+    }
+    
+}
+
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #212121;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+
+}
