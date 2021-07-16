@@ -12,7 +12,7 @@ header{
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
+    height: 17rem;
     width: 100%;
     color: white;
     text-align: center;
@@ -30,17 +30,17 @@ header .overlay h1{
 .overlay{
     background-color: rgba(0,0,0,0.7);
     width: 100%;
-    height: 40vh;
+    height: 17rem;
 }
 
 
 @media screen and (min-width: 900px){
     .overlay{
-        height: 50vh;
+        height: 20rem;
     }
 
     header{
-        height: 50vh;
+        height: 20rem;
     }
 
 }
@@ -49,7 +49,7 @@ header .overlay h1{
     padding: 2rem 2rem;
     text-align: center;
     display: grid;
-    height: 100vh;
+    height: 40rem;
     padding-bottom: 6rem;
     border-bottom: 8px solid black;
     
@@ -134,7 +134,7 @@ span{
 
 .club-career{
     padding: 2rem 1.5rem;
-    height: 180vh;
+    height: 80rem;
     line-height: 1.8;
     font-size: 22px;
     border-bottom: 5px solid black;
@@ -154,7 +154,7 @@ span{
 
 .brazil{
     padding: 2rem 1.5rem;
-    height: 140vh;
+    height: 70rem;
     line-height: 1.8;
     font-size: 22px;
     border-bottom: 5px solid black;
